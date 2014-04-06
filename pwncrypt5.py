@@ -29,7 +29,7 @@ def decrypt(db,acc):
  
 if __name__ == '__main__':
   if len(sys.argv) != 3:
-    print 'usage %s <db> <accountname> > decrypted.db' % sys.argv[0]
+    print 'python pwncrypt5.py lubepontes21@gmail.com msgstore.db.crypt5 > msgstore.sdb' % sys.argv[0]
   else:
     decrypt(sys.argv[1],sys.argv[2])
 
